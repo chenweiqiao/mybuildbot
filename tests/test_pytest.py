@@ -53,3 +53,7 @@ def test_mytest():
 ])  # parametrize可以用装饰器的方式集成多组测试样例
 def test_eval(test_input, expected):
     assert eval(test_input) == expected
+
+
+def test_hello():
+    assert 3 == 2

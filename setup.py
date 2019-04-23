@@ -55,7 +55,7 @@ def get_package_data(package):
     return {package: filepaths}
 
 
-version = 'v0.0'
+version = '0.0.0.0'
 
 if sys.argv[-1] == 'publish':
     os.system("python setup.py sdist")

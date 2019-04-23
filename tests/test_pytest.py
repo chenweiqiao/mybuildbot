@@ -55,5 +55,7 @@ def test_eval(test_input, expected):
     assert eval(test_input) == expected
 
 
-def test_hello():
+def test_mistake():
     assert 3 == 2
+
+

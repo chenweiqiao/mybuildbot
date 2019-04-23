@@ -75,7 +75,7 @@ setup(
     author_email='',
     packages=get_packages(''),
     package_data=get_package_data(''),
-    cmdclass={'test': PyTest},
+    cmdclass={'test': PyTest, 'pytest': PyTest},
     install_requires=[],
     classifiers=[
         'Programming Language :: Python',
